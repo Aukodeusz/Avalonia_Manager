@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfContact xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Contact>
+    <FirstName>1234</FirstName>
+    <LastName>cvgfg33333</LastName>
+    <PhoneNumber>dfgfdddd</PhoneNumber>
+    <Email>ghtdeeeed</Email>
+    <IsFavorite>false</IsFavorite>
+  </Contact>
+  <Contact>
+    <FirstName>cc</FirstName>
+    <LastName>cvgfg</LastName>
+    <PhoneNumber>dfgf</PhoneNumber>
+    <Email>ghtd</Email>
+    <IsFavorite>false</IsFavorite>
+  </Contact>
+  <Contact>
+    <FirstName>zając</FirstName>
+    <LastName>Kalwaski</LastName>
+    <PhoneNumber>456-768-384</PhoneNumber>
+    <Email>Bazeleg@Ostruda.onet.pl</Email>
+    <IsFavorite>false</IsFavorite>
+  </Contact>
+  <Contact>
+    <FirstName>cc</FirstName>
+    <LastName>cvgfg</LastName>
+    <PhoneNumber>dfgf</PhoneNumber>
+    <Email>ghtd</Email>
+    <IsFavorite>true</IsFavorite>
+  </Contact>
+  <Contact>
+    <FirstName>cc</FirstName>
+    <LastName>cvgfg</LastName>
+    <PhoneNumber>dfgf</PhoneNumber>
+    <Email>ghtd</Email>
+    <IsFavorite>true</IsFavorite>
+  </Contact>
+  <Contact>
+    <FirstName />
+    <LastName>cvgfg</LastName>
+    <PhoneNumber>dfgf</PhoneNumber>
+    <Email>ghtd</Email>
+    <IsFavorite>false</IsFavorite>
+  </Contact>
+  <Contact>
+    <FirstName />
+    <LastName>cvgfg</LastName>
+    <PhoneNumber>dfgf</PhoneNumber>
+    <Email>ghtd</Email>
+    <IsFavorite>false</IsFavorite>
+  </Contact>
+</ArrayOfContact>

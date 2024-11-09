@@ -1,0 +1,24 @@
+﻿<Window x:Class="ContactManager.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Menadżer Kontaktów" Height="450" Width="800">
+    <Canvas Background="PeachPuff" Margin="10">
+        <StackPanel Orientation="Vertical" Canvas.Left="10" Canvas.Top="10">
+            <TextBox x:Name="inputFirstName" Width="200" Margin="5" />
+            <TextBox x:Name="inputLastName" Width="200" Margin="5" />
+            <TextBox x:Name="inputPhone" Width="200" Margin="5" />
+            <TextBox x:Name="inputEmail" Width="200" Margin="5" />
+            <CheckBox x:Name="favoriteCheckBox" Margin="5" Content="Ulubiony" />
+        </StackPanel>
+        <StackPanel Orientation="Vertical" Canvas.Left="220" Canvas.Top="10">
+            <ComboBox x:Name="filterComboBox" Width="200" Margin="5" SelectionChanged="OnFilterChanged">
+                <ComboBoxItem Content="Wszystkie" />
+                <ComboBoxItem Content="Ulubione" />
+            </ComboBox>
+            <Button  Width="100" Margin="5" Content="Dodaj" Click="OnAddClick" />
+            <Button  Width="100" Margin="5" Content="Edytuj" Click="OnEditClick" />
+            <Button  Width="100" Margin="5" Content="Usuń" Click="OnDeleteClick" />
+        </StackPanel>
+        <ListBox Background="Crimson" x:Name="contactListBox" Width="400" Height="200" Canvas.Left="10" Canvas.Top="150" Margin="5" DisplayMemberPath="FullName" />
+    </Canvas>
+</Window>
